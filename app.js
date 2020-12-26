@@ -42,7 +42,7 @@ app.put('/edit', async (req, res) => {
     );
 
     res.status(200).send({
-      message: 'user updated',
+      message: 'user template ready',
     });
 
     clientInfo.close();
